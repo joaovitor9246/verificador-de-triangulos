@@ -20,6 +20,13 @@ public class Program {
         } else {
             System.out.println("Não é possível formar um triângulo com esses segmentos de reta !");
         }
+        if (reta1 == reta2 && reta2 ==reta3) {
+            System.out.println("O triângulo formado é equilátero !");
+        } else if (reta1 == reta2 || reta1 == reta3 || reta2 == reta3) {
+            System.out.println("O triângulo formado é isósceles !");
+        } else {
+            System.out.println("O triângulo formado é escaleno !");
+        }
         teclado.close();
     }
 }

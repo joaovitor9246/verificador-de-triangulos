@@ -6,8 +6,10 @@ public class Program {
 
         System.out.println("Digite o comprimento do primeiro segmento de reta: ");
         double reta1 = teclado.nextDouble();
+        
         System.out.println("Digite o comprimento do segundo segmento de reta: ");
         double reta2 = teclado.nextDouble();
+        
         System.out.println("Digite o comprimento do terceiro segmento de reta: ");
         double reta3 = teclado.nextDouble();
 
